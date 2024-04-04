@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center; /* Center align content within the container */
+}
+
+h1 {
+    text-align: center;
+}
