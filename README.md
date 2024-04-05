@@ -41,14 +41,14 @@ math.html
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <style type="text/css">
         body {
-            background-color: violet;
+            background-color: yellow;
         }
         .edge {
             width: 100%;
             max-width: 1440px;
             margin: 0 auto;
-            padding-top: 250px;
-            padding-left: 300px;
+            padding-top: 20px;
+            text-align: center;  /* Added text-align center */
         }
         .box {
             border: thick dashed blue;
@@ -58,6 +58,7 @@ math.html
             background-color: blue;
             padding: 20px;
             box-sizing: border-box;
+            display: inline-block;  /* Added display inline-block */
         }
         .formelt {
             color: yellowgreen;
@@ -69,6 +70,7 @@ math.html
             color: rgb(255, 0, 179);
             text-align: center;
             padding-top: 20px;
+            margin-bottom: 0;
         }
         .input-container {
             margin-bottom: 10px;
@@ -76,6 +78,8 @@ math.html
     </style>
 </head>
 <body>
+    <h1>ANU VARSHINI M B</h1>
+    <h1>212223240010</h1>
     <div class="edge">
         <div class="box">
             <h1>Surface Area of Right Cylinder</h1>
@@ -102,6 +106,7 @@ math.html
     </div>
 </body>
 </html>
+
 ```
 ```
 views.py
@@ -150,10 +155,10 @@ urlpatterns = [
 ```
 
 ## SERVER SIDE PROCESSING:
-![alt text](<Screenshot 2024-04-04 214148.png>)
+![alt text](<Screenshot 2024-04-05 094723.png>)
 
 ## HOMEPAGE:
-![alt text](<Screenshot 2024-04-04 214116.png>)
+![alt text](<Screenshot 2024-04-05 093904.png>)
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
